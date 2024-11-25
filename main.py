@@ -147,8 +147,8 @@ class Game:
                 'down': pygame.K_DOWN,  # Down arrow
                 'right': pygame.K_RIGHT,  # Right arrow
                 'left': pygame.K_LEFT,  # Left arrow
-                'sword': pygame.K_SPACE,  # Spacebar
-                'shield': pygame.K_s  # 'S' key
+                'sword': pygame.K_a,  # 'A' key
+                'shield': pygame.K_d  # 'S' key
             }
             # AI player placement
             self.facing_left = facing_left
